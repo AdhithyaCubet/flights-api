@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.flights.service.GetAggregatedListTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.059 s <<< FAILURE! - in com.example.flights.service.GetAggregatedListTest
+testListApi  Time elapsed: 5.105 s  <<< ERROR!
+java.lang.NoClassDefFoundError: junit/framework/Assert
+	at com.example.flights.service.GetAggregatedListTest.lambda$0(GetAggregatedListTest.java:31)
+	at com.example.flights.service.GetAggregatedListTest.testListApi(GetAggregatedListTest.java:30)
+Caused by: java.lang.ClassNotFoundException: junit.framework.Assert
+	at com.example.flights.service.GetAggregatedListTest.lambda$0(GetAggregatedListTest.java:31)
+	at com.example.flights.service.GetAggregatedListTest.testListApi(GetAggregatedListTest.java:30)
+

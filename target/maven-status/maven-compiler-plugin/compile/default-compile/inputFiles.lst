@@ -1,0 +1,10 @@
+/home/c713/Downloads/flights/src/main/java/com/example/flights/model/Business.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/model/CheapData.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/FlightsApplication.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/config/FlightDataConfig.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/exception/DataException.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/model/Cheap.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/controller/FlightsController.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/model/Data.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/service/GetAggregatedList.java
+/home/c713/Downloads/flights/src/main/java/com/example/flights/model/BusinessData.java
