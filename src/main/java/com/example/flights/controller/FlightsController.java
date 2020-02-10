@@ -29,20 +29,4 @@ public class FlightsController {
 		return getAggregatedList.getDataList().log().onErrorMap(exception -> new DataException("Error"));
 
 	}
-
-	@RequestMapping("/error")
-	@ResponseBody
-	public String handleError(HttpServletRequest request) {
-		Integer statusCode = (Integer) request.getAttribute("javax.servlet.error.status_code");
-		Exception exception = (Exception) request.getAttribute("javax.servlet.error.exception");
-		return String.format(
-				"<html><body><h2>Error Page</h2><div>Status code: <b>%s</b></div>"
-						+ "<div>Exception Message: <b>%s</b></div><body></html>",
-				statusCode, exception == null ? "Success" : exception.getMessage());
 	}
-
-	public String getErrorPath() {
-		return "/error";
-	}
-
-}
